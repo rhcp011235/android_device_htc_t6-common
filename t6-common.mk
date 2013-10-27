@@ -55,6 +55,54 @@ PRODUCT_PACKAGES += \
     offmode_charging \
     power_test
 
+# Recovery Images
+PRODUCT_PACKAGES += \
+    charging_00.png \
+    charging_01.png \
+    charging_02.png \
+    charging_03.png \
+    charging_04.png \
+    charging_05.png \
+    charging_06.png \
+    charging_07.png \
+    charging_08.png \
+    charging_09.png \
+    error.png \
+    r_0.png \
+    r_1.png \
+    r_2.png \
+    r_3.png \
+    r_4.png \
+    r_5.png \
+    r_6.png \
+    r_7.png \
+    r_8.png \
+    r_9.png \
+    r_percent.png \
+    w_0.png \
+    w_1.png \
+    w_2.png \
+    w_3.png \
+    w_4.png \
+    w_5.png \
+    w_6.png \
+    w_7.png \
+    w_8.png \
+    w_9.png \
+    w_percent.png \
+    y_0.png \
+    y_1.png \
+    y_2.png \
+    y_3.png \
+    y_4.png \
+    y_5.png \
+    y_6.png \
+    y_7.png \
+    y_8.png \
+    y_9.png \
+    y_percent.png
+
+
 # QC thermald config
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/configs/thermald.conf:system/etc/thermald.conf
 
