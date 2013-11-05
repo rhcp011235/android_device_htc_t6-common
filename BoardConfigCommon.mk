@@ -71,7 +71,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 27917287424
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Added for Clockworkmod
-TARGET_RECOVERY_FSTAB := device/htc/t6ul/rootdir/etc/fstab.t6ul
+TARGET_RECOVERY_FSTAB := device/htc/t6-common/rootdir/etc/fstab.t6
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_RECOVERY_SWIPE := true
