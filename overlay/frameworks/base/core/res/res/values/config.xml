@@ -243,4 +243,10 @@
 
     <!-- Button illumination -->
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+
+    <!-- Enable flashlight -->
+    <bool name="config_enableTorch">true</bool>
+
+    <!-- Disable lockscreen translucent decor by default -->
+    <bool name="config_enableLockScreenTranslucentDecor">true</bool>
 </resources>
