@@ -36,13 +36,13 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.t6 \
+    fstab.qcom \
     init.qcom.firmware_links.sh \
-    init.t6.usb.rc \
-    init.t6.rc \
-    remount.t6 \
-    ueventd.t6.rc \
-    init.recovery.t6.rc
+    init.qcom.usb.rc \
+    init.qcom.rc \
+    remount.qcom \
+    ueventd.qcom.rc \
+    init.recovery.qcom.rc
 
 # Post boot service
 PRODUCT_COPY_FILES += \
