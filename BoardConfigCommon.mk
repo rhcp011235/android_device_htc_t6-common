@@ -34,7 +34,6 @@ BOARD_KERNEL_BASE := 0x80600000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=qcom user_debug=31
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01400000
-TARGET_PREBUILT_KERNEL := device/htc/t6-common/kernel
 
 # Audio
 BOARD_USES_FLUENCE_INCALL := true  # use DMIC in call only
