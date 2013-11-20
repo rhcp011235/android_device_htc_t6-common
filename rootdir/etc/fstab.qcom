@@ -12,5 +12,5 @@
 /dev/block/mmcblk0p16	/firmware/q6	vfat	ro,fmask=0000,dmask=0000,shortname=lower		wait
 
 # External Storage Devices
-/devices/platform/msm_sdcc.3/mmc_host   /storage/external_sd     auto default    voldmanaged=external_sd:auto
-/devices/platform/msm_hsusb_host	/storage/usbdisk	auto	defaults	voldmanaged=usbdisk:auto
+/devices/platform/msm_sdcc.3/mmc_host   auto	auto	defaults	voldmanaged=sdcard1:auto
+/devices/platform/msm_hsusb_host	auto	auto	defaults	voldmanaged=usbdisk:auto
